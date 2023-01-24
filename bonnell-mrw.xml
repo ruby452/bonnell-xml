@@ -7118,6 +7118,10 @@
 <globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/Si5332LD-0</id>
 	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
@@ -7163,6 +7167,21 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/Si5332LD-0/Si5332LD.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x6A</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -7360,6 +7379,17 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/TMP275-0/TMP275.temp1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -84671,7 +84701,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>null</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -89959,7 +89989,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
