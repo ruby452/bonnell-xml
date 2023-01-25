@@ -5816,6 +5816,78 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/IR38063-0/IR38060.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/IR38063-0/IR38060.i2c-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/IR38063-0/IR38060.pgood-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/IR38063-0/IR38060.vout-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RAIL_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/IR38063_3P3V-8</id>
 	<property>
 	<id>FRU_ID</id>
@@ -7174,7 +7246,7 @@
 	<id>/sys-0/node-0/pennybacker-0/Si5332LD-0/Si5332LD.i2c</id>
 	<property>
 	<id>DIRECTION</id>
-	<value>null</value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
@@ -9283,6 +9355,36 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/ddimm_connector-0/ddimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/ddimm_connector-0/ddimm-0/spd/i2c-spd</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/ddimm_connector-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -10120,6 +10222,17 @@
 	</property>
 	<property>
 	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/pmic_3a3b/avs</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RAIL_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -14309,7 +14422,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/base_op_panel_connector-0/blyth-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -14346,7 +14459,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/base_op_panel_connector-0/blyth-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -14383,7 +14496,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/base_op_panel_connector-0/blyth-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -14420,7 +14533,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/base_op_panel_connector-0/blyth-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -14457,7 +14570,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/base_op_panel_connector-0/blyth-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16196,7 +16309,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:L:/sys-0/node-0/pennybacker-0/pmic_3a3b</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16233,7 +16346,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:L:/sys-0/node-0/pennybacker-0/IR38063_VDDR_3a3b-6</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16270,7 +16383,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:L:/sys-0/node-0/pennybacker-0/pmic_2a2b</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16307,7 +16420,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:L:/sys-0/node-0/pennybacker-0/IR38063_VDDR_2a2b-7</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16344,7 +16457,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/pcieslot-x16-C0-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16381,7 +16494,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/pcieslot-x8-C1-1</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16418,7 +16531,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/pcieslot-x16-C2-2</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16455,7 +16568,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/pcieslot-x8-C3-3</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -84701,11 +84814,11 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default>null</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>OSCREFCLK</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -90600,7 +90713,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default>null</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
