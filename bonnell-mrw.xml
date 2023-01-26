@@ -91380,7 +91380,7 @@
 	<type>chip-NPCT750AAC</type>
 	<is_root>false</is_root>
 	<instance_name>TPM_NPCT750AAC</instance_name>
-	<position>1</position>
+	<position>0</position>
 	<child_id>NPCT750AAC.spi</child_id>
 	<child_id>NPCT750AAC.SINT</child_id>
 	<child_id>NPCT750AAC.RESET</child_id>
@@ -91463,7 +91463,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>TPM</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
