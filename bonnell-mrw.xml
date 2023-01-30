@@ -12488,7 +12488,7 @@
 				<field><id>writeCycleTime</id><value>0xFFFFFFFFFFFFFFFF</value></field>
 				<field><id>i2cMuxBusSelector</id><value>0xFF</value></field>
 				<field><id>i2cMuxPath</id><value>physical:sys-0</value></field>
-				<field><id>eepromContentType</id><value>0x4</value></field>
+				<field><id>eepromContentType</id><value>0x2</value></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -91610,7 +91610,7 @@
 	<type>chip-NPCT750AAC</type>
 	<is_root>false</is_root>
 	<instance_name>TPM_NPCT750AAC</instance_name>
-	<position>1</position>
+	<position>0</position>
 	<child_id>NPCT750AAC.spi</child_id>
 	<child_id>NPCT750AAC.SINT</child_id>
 	<child_id>NPCT750AAC.RESET</child_id>
