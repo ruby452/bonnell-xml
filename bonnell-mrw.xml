@@ -10717,6 +10717,33 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PBAX_CHIPID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PROC_FABRIC_TOPOLOGY_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/dcm-attn-master</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11113,6 +11140,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pec0</id>
+	<property>
+	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pec0/pec0_x16_config</id>
 	<property>
 	<id>IO_CONFIG_SELECT</id>
@@ -11329,6 +11371,211 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc0/iohs0</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value>OCAPI</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>LOW_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc1</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc1/iohs2</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc1/iohs3</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc2</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>LOW_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc2/iohs5</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value>UNUSED</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc3/iohs6</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc3/iohs7</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -12738,7 +12985,7 @@
 	<hidden_child_id>apss_fault_sensor</hidden_child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
-		<default></default>
+		<default>affinity:sys-0/node-0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -96176,7 +96423,7 @@
 </targetInstance>
 <targetInstance>
 	<id>ocmb_3a</id>
-	<type>chip-ocmb</type>
+	<type>chip-ocmb-planar</type>
 	<is_root>false</is_root>
 	<instance_name>ocmb_3a</instance_name>
 	<position>-1</position>
@@ -96196,40 +96443,6 @@
 	<attribute>
 		<id>CLOCKSTOP_ON_XSTOP</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>EEPROM_VPD_BACKUP_INFO</id>
-		<default>
-				<field><id>i2cMasterPath</id><value>physical:sys-0</value></field>
-				<field><id>port</id><value>0xFF</value></field>
-				<field><id>devAddr</id><value>0xFF</value></field>
-				<field><id>engine</id><value>0xFF</value></field>
-				<field><id>byteAddrOffset</id><value>0xFF</value></field>
-				<field><id>maxMemorySizeKB</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>chipCount</id><value>0xFF</value></field>
-				<field><id>writePageSize</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>writeCycleTime</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>i2cMuxBusSelector</id><value>0xFF</value></field>
-				<field><id>i2cMuxPath</id><value>physical:sys-0</value></field>
-				<field><id>eepromContentType</id><value>0xFFFFFFFF</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>EEPROM_VPD_PRIMARY_INFO</id>
-		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
-				<field><id>i2cMuxBusSelector</id><value></value></field>
-				<field><id>i2cMuxPath</id><value></value></field>
-				<field><id>eepromContentType</id><value>0x4</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_I2C_CONTROL_INFO</id>
@@ -96259,10 +96472,6 @@
 	</attribute>
 	<attribute>
 		<id>IO_TANK_PLL_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -96575,7 +96784,7 @@
 </targetInstance>
 <targetInstance>
 	<id>ocmb_3b</id>
-	<type>chip-ocmb</type>
+	<type>chip-ocmb-planar</type>
 	<is_root>false</is_root>
 	<instance_name>ocmb_3b</instance_name>
 	<position>-1</position>
@@ -96595,40 +96804,6 @@
 	<attribute>
 		<id>CLOCKSTOP_ON_XSTOP</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>EEPROM_VPD_BACKUP_INFO</id>
-		<default>
-				<field><id>i2cMasterPath</id><value>physical:sys-0</value></field>
-				<field><id>port</id><value>0xFF</value></field>
-				<field><id>devAddr</id><value>0xFF</value></field>
-				<field><id>engine</id><value>0xFF</value></field>
-				<field><id>byteAddrOffset</id><value>0xFF</value></field>
-				<field><id>maxMemorySizeKB</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>chipCount</id><value>0xFF</value></field>
-				<field><id>writePageSize</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>writeCycleTime</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>i2cMuxBusSelector</id><value>0xFF</value></field>
-				<field><id>i2cMuxPath</id><value>physical:sys-0</value></field>
-				<field><id>eepromContentType</id><value>0xFFFFFFFF</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>EEPROM_VPD_PRIMARY_INFO</id>
-		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
-				<field><id>i2cMuxBusSelector</id><value></value></field>
-				<field><id>i2cMuxPath</id><value></value></field>
-				<field><id>eepromContentType</id><value>0x4</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_I2C_CONTROL_INFO</id>
@@ -96658,10 +96833,6 @@
 	</attribute>
 	<attribute>
 		<id>IO_TANK_PLL_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -96719,7 +96890,7 @@
 </targetInstance>
 <targetInstance>
 	<id>ocmb_2a</id>
-	<type>chip-ocmb</type>
+	<type>chip-ocmb-planar</type>
 	<is_root>false</is_root>
 	<instance_name>ocmb_2a</instance_name>
 	<position>-1</position>
@@ -96739,40 +96910,6 @@
 	<attribute>
 		<id>CLOCKSTOP_ON_XSTOP</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>EEPROM_VPD_BACKUP_INFO</id>
-		<default>
-				<field><id>i2cMasterPath</id><value>physical:sys-0</value></field>
-				<field><id>port</id><value>0xFF</value></field>
-				<field><id>devAddr</id><value>0xFF</value></field>
-				<field><id>engine</id><value>0xFF</value></field>
-				<field><id>byteAddrOffset</id><value>0xFF</value></field>
-				<field><id>maxMemorySizeKB</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>chipCount</id><value>0xFF</value></field>
-				<field><id>writePageSize</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>writeCycleTime</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>i2cMuxBusSelector</id><value>0xFF</value></field>
-				<field><id>i2cMuxPath</id><value>physical:sys-0</value></field>
-				<field><id>eepromContentType</id><value>0xFFFFFFFF</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>EEPROM_VPD_PRIMARY_INFO</id>
-		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
-				<field><id>i2cMuxBusSelector</id><value></value></field>
-				<field><id>i2cMuxPath</id><value></value></field>
-				<field><id>eepromContentType</id><value>0x4</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_I2C_CONTROL_INFO</id>
@@ -96802,10 +96939,6 @@
 	</attribute>
 	<attribute>
 		<id>IO_TANK_PLL_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -96863,7 +96996,7 @@
 </targetInstance>
 <targetInstance>
 	<id>ocmb_2b</id>
-	<type>chip-ocmb</type>
+	<type>chip-ocmb-planar</type>
 	<is_root>false</is_root>
 	<instance_name>ocmb_2b</instance_name>
 	<position>-1</position>
@@ -96883,40 +97016,6 @@
 	<attribute>
 		<id>CLOCKSTOP_ON_XSTOP</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>EEPROM_VPD_BACKUP_INFO</id>
-		<default>
-				<field><id>i2cMasterPath</id><value>physical:sys-0</value></field>
-				<field><id>port</id><value>0xFF</value></field>
-				<field><id>devAddr</id><value>0xFF</value></field>
-				<field><id>engine</id><value>0xFF</value></field>
-				<field><id>byteAddrOffset</id><value>0xFF</value></field>
-				<field><id>maxMemorySizeKB</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>chipCount</id><value>0xFF</value></field>
-				<field><id>writePageSize</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>writeCycleTime</id><value>0xFFFFFFFFFFFFFFFF</value></field>
-				<field><id>i2cMuxBusSelector</id><value>0xFF</value></field>
-				<field><id>i2cMuxPath</id><value>physical:sys-0</value></field>
-				<field><id>eepromContentType</id><value>0xFFFFFFFF</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>EEPROM_VPD_PRIMARY_INFO</id>
-		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
-				<field><id>i2cMuxBusSelector</id><value></value></field>
-				<field><id>i2cMuxPath</id><value></value></field>
-				<field><id>eepromContentType</id><value>0x4</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_I2C_CONTROL_INFO</id>
@@ -96946,10 +97045,6 @@
 	</attribute>
 	<attribute>
 		<id>IO_TANK_PLL_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
 	<attribute>
