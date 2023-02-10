@@ -10870,6 +10870,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/mc0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/omi-refclk</id>
 	<property>
 	<id>DIRECTION</id>
@@ -10924,7 +10931,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc0/iohs0</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>SMPX</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -10937,6 +10944,28 @@
 	<property>
 	<id>IO_IOHS_CHANNEL_LOSS</id>
 	<value>LOW_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc0/iohs0/abus0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc0/iohs0/xbus0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -11007,7 +11036,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>OCAPI</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -11094,6 +11123,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc3</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
@@ -11120,7 +11156,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>SMPX</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -11385,7 +11421,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc0/iohs0</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>OCAPI</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -11461,7 +11497,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>SMPX</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -11560,7 +11596,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>SMPX</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -12370,6 +12406,10 @@
 	<attribute>
 		<id>MSS_MRW_DDR5_DRAM_READ_CRC</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MSS_MRW_DDR5_MAX_DRAM_DATABUS_UTIL</id>
+		<default>0x00002710</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_DIMM_HEIGHT_MIXING_POLICY</id>
@@ -73211,6 +73251,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>SPPE_TARGET_STATE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
 		<default>NA</default>
 	</attribute>
@@ -96658,6 +96702,10 @@
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SPPE_TARGET_STATE</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
