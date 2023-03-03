@@ -5553,6 +5553,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/IR35221_VDN_VCS-1</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/IR35221_VDN_VCS-1/vrd-i2c-2.enable1</id>
 	<property>
 	<id>DIRECTION</id>
@@ -6241,6 +6252,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/IR95221_0_9VA-4</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/IR95221_0_9VA-4/vrd-i2c-2.enable1</id>
 	<property>
 	<id>DIRECTION</id>
@@ -6290,11 +6312,11 @@
 	<id>/sys-0/node-0/pennybacker-0/IR95221_0_9VA-4/vrd-i2c-2.i2c</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xE0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
