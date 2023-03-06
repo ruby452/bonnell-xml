@@ -13310,7 +13310,7 @@
 	</attribute>
 	<attribute>
 		<id>USE_11S_SPD</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDN_UPLIFT_MV</id>
