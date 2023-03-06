@@ -10995,6 +10995,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/p0-meas/spi-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11367,6 +11378,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
@@ -11480,6 +11513,28 @@
 	<property>
 	<id>IO_IOHS_CHANNEL_LOSS</id>
 	<value>LOW_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -11798,6 +11853,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc1</id>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -11874,6 +11951,28 @@
 	<property>
 	<id>IO_IOHS_CHANNEL_LOSS</id>
 	<value>LOW_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -18878,31 +18977,6 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-0/spi-mvpd => proc_socket-0/godel-0/p1-mvpd/spi-slave</bus_id>
-		<bus_type>SPI</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
-		<source_target>spi-mvpd</source_target>
-		<dest_path>proc_socket-0/godel-0/p1-mvpd/</dest_path>
-		<dest_target>spi-slave</dest_target>
-		<bus_attribute>
-			<id>BUS_WIDTH</id>
-		<default>2</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default></default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>SPI_CONNECTION_TYPE</id>
-		<default>CFAM</default>
-		</bus_attribute>
-	</bus>
-	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/spi-meas => proc_socket-0/godel-0/p0-meas/spi-slave</bus_id>
 		<bus_type>SPI</bus_type>
 		<cable>no</cable>
@@ -19028,6 +19102,31 @@
 		</bus_attribute>
 	</bus>
 	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/spi-mvpd => proc_socket-0/godel-0/p0-mvpd/spi-slave</bus_id>
+		<bus_type>SPI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>spi-mvpd</source_target>
+		<dest_path>proc_socket-0/godel-0/p0-mvpd/</dest_path>
+		<dest_target>spi-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
+	</bus>
+	<bus>
 		<bus_id>bmc-0/chip-bmc-ast2600.pin_P25_gpion0n7_uart2/chip-bmc-ast2600.pingroup_uart2/chip-bmc-ast2600.UART2 => bonnell_apss-0/apss.UART-S0</bus_id>
 		<bus_type>U750</bus_type>
 		<cable>no</cable>
@@ -19042,6 +19141,90 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxA => proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxA</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/</dest_path>
+		<dest_target>groupxA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxB => proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxB</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/</dest_path>
+		<dest_target>groupxB</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxA => proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxA</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/</dest_path>
+		<dest_target>groupxA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxB => proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxB</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/</dest_path>
+		<dest_target>groupxB</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
