@@ -12501,7 +12501,7 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default>unknown</default>
+		<default>k0</default>
 	</attribute>
 	<attribute>
 		<id>FIELD_TH_L2_LINE_DELETES</id>
@@ -12529,7 +12529,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PAU_MHZ</id>
-		<default></default>
+		<default>2133</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
@@ -12537,7 +12537,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PCIE_MHZ</id>
-		<default></default>
+		<default>2000</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_X_MHZ</id>
