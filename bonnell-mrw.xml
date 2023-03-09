@@ -13193,7 +13193,7 @@
 	</attribute>
 	<attribute>
 		<id>PHYP_SYSTEM_TYPE</id>
-		<default>0x50300000</default>
+		<default>0x50330000</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
