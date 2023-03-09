@@ -10103,7 +10103,7 @@
 	</property>
 	<property>
 	<id>MSS_MRW_OCMB_RESET_GROUP</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -10174,7 +10174,7 @@
 	</property>
 	<property>
 	<id>MSS_MRW_OCMB_RESET_GROUP</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -10230,7 +10230,7 @@
 	</property>
 	<property>
 	<id>MSS_MRW_OCMB_RESET_GROUP</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -10301,7 +10301,7 @@
 	</property>
 	<property>
 	<id>MSS_MRW_OCMB_RESET_GROUP</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -10995,6 +10995,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/p0-meas/spi-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11310,7 +11321,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc0/iohs1</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>SMPX</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -11367,10 +11378,32 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>UNUSED</value>
+	<value>OCAPI</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -11457,6 +11490,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc2/pau5</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc3</id>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -11487,10 +11527,32 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>UNUSED</value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -11513,11 +11575,11 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pec0</id>
 	<property>
 	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
-	<value></value>
+	<value>0x0,0x0,0x0</value>
 	</property>
 	<property>
 	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
-	<value></value>
+	<value>0x1,0x1,0x1</value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -11577,6 +11639,21 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pec0/pec0_x8_x8_config/phb0_x8</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pec1</id>
+	<property>
+	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
+	<value>0x0,0x0,0x0</value>
+	</property>
+	<property>
+	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
+	<value>0x1,0x0,0x0</value>
+	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
@@ -11798,6 +11875,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc1</id>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -11808,7 +11907,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc1/iohs2</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>SMPX</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -11881,6 +11980,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc2/iohs5</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
@@ -11930,7 +12051,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>UNUSED</value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -11943,6 +12064,36 @@
 	<property>
 	<id>IO_IOHS_CHANNEL_LOSS</id>
 	<value>HIGH_LOSS</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pec0</id>
+	<property>
+	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
+	<value>0x0,0x0,0x0</value>
+	</property>
+	<property>
+	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
+	<value>0x1,0x1,0x0</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pec1</id>
+	<property>
+	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
+	<value>0x0,0x0,0x0</value>
+	</property>
+	<property>
+	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
+	<value>0x1,0x0,0x0</value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -12402,7 +12553,7 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default>unknown</default>
+		<default>k0</default>
 	</attribute>
 	<attribute>
 		<id>FIELD_TH_L2_LINE_DELETES</id>
@@ -12430,7 +12581,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PAU_MHZ</id>
-		<default></default>
+		<default>2133</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
@@ -12438,7 +12589,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PCIE_MHZ</id>
-		<default></default>
+		<default>2000</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_X_MHZ</id>
@@ -12515,7 +12666,7 @@
 	</attribute>
 	<attribute>
 		<id>MAX_ALLOWED_DIMM_FREQ</id>
-		<default>2400,2400,2400,2400,2400</default>
+		<default>3200,3200,3200,3200,3200</default>
 	</attribute>
 	<attribute>
 		<id>MAX_DIMMS_PER_MBA_PORT</id>
@@ -12715,11 +12866,11 @@
 	</attribute>
 	<attribute>
 		<id>MSL_FIELD_SUPPORTED</id>
-		<default></default>
+		<default>POWER10~2.0;EXPLORER~2.0;EXPLORER~1.1</default>
 	</attribute>
 	<attribute>
 		<id>MSL_MFG_ALLOW</id>
-		<default></default>
+		<default>POWER10~2.0;EXPLORER~2.0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_INTERLEAVE_ENABLE</id>
@@ -12727,7 +12878,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_INTERLEAVE_GRANULARITY</id>
-		<default></default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MBA_ADDR_INTERLEAVE_BIT</id>
@@ -12811,23 +12962,23 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_CURRENT_CURVE_WITH_LIMIT</id>
-		<default></default>
+		<default>0xFFFFFC0064152094,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_PWR_INTERCEPT</id>
-		<default></default>
+		<default>0xFFFFFC00047D0000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_PWR_SLOPE</id>
-		<default></default>
+		<default>0xFFFFFC0002A80000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_SAFEMODE_UTIL_ARRAY</id>
-		<default></default>
+		<default>0xFFFFFFC009C40000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_THERMAL_MEMORY_POWER_LIMIT</id>
-		<default></default>
+		<default>0xFFFFFC0009C40000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OVERRIDE_THERM_SENSOR_USAGE</id>
@@ -13042,7 +13193,7 @@
 	</attribute>
 	<attribute>
 		<id>PHYP_SYSTEM_TYPE</id>
-		<default>0x50300000</default>
+		<default>0x50330000</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -18878,31 +19029,6 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-0/spi-mvpd => proc_socket-0/godel-0/p1-mvpd/spi-slave</bus_id>
-		<bus_type>SPI</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
-		<source_target>spi-mvpd</source_target>
-		<dest_path>proc_socket-0/godel-0/p1-mvpd/</dest_path>
-		<dest_target>spi-slave</dest_target>
-		<bus_attribute>
-			<id>BUS_WIDTH</id>
-		<default>2</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default></default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>SPI_CONNECTION_TYPE</id>
-		<default>CFAM</default>
-		</bus_attribute>
-	</bus>
-	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/spi-meas => proc_socket-0/godel-0/p0-meas/spi-slave</bus_id>
 		<bus_type>SPI</bus_type>
 		<cable>no</cable>
@@ -19028,6 +19154,31 @@
 		</bus_attribute>
 	</bus>
 	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/spi-mvpd => proc_socket-0/godel-0/p0-mvpd/spi-slave</bus_id>
+		<bus_type>SPI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>spi-mvpd</source_target>
+		<dest_path>proc_socket-0/godel-0/p0-mvpd/</dest_path>
+		<dest_target>spi-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
+	</bus>
+	<bus>
 		<bus_id>bmc-0/chip-bmc-ast2600.pin_P25_gpion0n7_uart2/chip-bmc-ast2600.pingroup_uart2/chip-bmc-ast2600.UART2 => bonnell_apss-0/apss.UART-S0</bus_id>
 		<bus_type>U750</bus_type>
 		<cable>no</cable>
@@ -19042,6 +19193,90 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxA => proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxA</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/</dest_path>
+		<dest_target>groupxA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxB => proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxB</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/</dest_path>
+		<dest_target>groupxB</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxA => proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxA</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/</dest_path>
+		<dest_target>groupxA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxB => proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxB</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/</dest_path>
+		<dest_target>groupxB</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
@@ -56587,7 +56822,7 @@
 	</attribute>
 	<attribute>
 		<id>EXTERNAL_VRM_STEPSIZE</id>
-		<default>0x00</default>
+		<default>0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>FABRIC_CHIP_ID</id>
@@ -65561,7 +65796,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default></default>
+		<default>2133</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -65976,7 +66211,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default></default>
+		<default>2133</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -66292,7 +66527,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default></default>
+		<default>2133</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -66503,7 +66738,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default></default>
+		<default>2133</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -66820,7 +67055,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default></default>
+		<default>2133</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -67031,7 +67266,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default></default>
+		<default>2133</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -67399,7 +67634,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default></default>
+		<default>2133</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -67610,7 +67845,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default></default>
+		<default>2133</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -72590,7 +72825,7 @@
 	</attribute>
 	<attribute>
 		<id>AVSBUS_BUSNUM</id>
-		<default>0x00,0x01,0x01,0xFF</default>
+		<default>0xFF,0xFF,0xFF,0xFF</default>
 	</attribute>
 	<attribute>
 		<id>AVSBUS_FREQUENCY</id>
@@ -72726,7 +72961,7 @@
 	</attribute>
 	<attribute>
 		<id>EXTERNAL_VRM_STEPSIZE</id>
-		<default>0x00</default>
+		<default>0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>FABRIC_CHIP_ID</id>
