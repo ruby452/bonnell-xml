@@ -56822,7 +56822,7 @@
 	</attribute>
 	<attribute>
 		<id>EXTERNAL_VRM_STEPSIZE</id>
-		<default>0x00</default>
+		<default>0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>FABRIC_CHIP_ID</id>
@@ -72825,7 +72825,7 @@
 	</attribute>
 	<attribute>
 		<id>AVSBUS_BUSNUM</id>
-		<default>0x00,0x01,0x01,0xFF</default>
+		<default>0xFF,0xFF,0xFF,0xFF</default>
 	</attribute>
 	<attribute>
 		<id>AVSBUS_FREQUENCY</id>
@@ -72961,7 +72961,7 @@
 	</attribute>
 	<attribute>
 		<id>EXTERNAL_VRM_STEPSIZE</id>
-		<default>0x00</default>
+		<default>0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>FABRIC_CHIP_ID</id>
