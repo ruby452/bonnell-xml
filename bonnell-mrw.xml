@@ -4786,7 +4786,7 @@
 	<id>/sys-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_MODE</id>
@@ -4801,7 +4801,7 @@
 	<id>/sys-0/node-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -11073,15 +11073,15 @@
 	</property>
 	<property>
 	<id>PBAX_CHIPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
-	<value></value>
+	<value>0x0</value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -11744,6 +11744,33 @@
 	</property>
 	<property>
 	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x01</value>
+	</property>
+	<property>
+	<id>PBAX_GROUPID</id>
+	<value>0x00</value>
+	</property>
+	<property>
+	<id>PROC_FABRIC_TOPOLOGY_ID</id>
+	<value>0x2</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -12417,7 +12444,7 @@
 	</attribute>
 	<attribute>
 		<id>AUX_FUNC_INVOCATION_TIME_MS</id>
-		<default></default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>AVERAGE_IPL_TIME</id>
@@ -12834,7 +12861,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_FREQ_SYSTEM_CORE_FLOOR_MHZ</id>
-		<default>3250</default>
+		<default>2000</default>
 	</attribute>
 	<attribute>
 		<id>MRW_L2_INCREASE_JITTER</id>
@@ -12846,7 +12873,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_P1PF_MIN_CONFIDENCE_3</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MRW_SAFEMODE_MEM_THROTTLE_NUMERATOR_PER_CHIP</id>
@@ -13106,7 +13133,7 @@
 	</attribute>
 	<attribute>
 		<id>NEST_LEAKAGE_PERCENT</id>
-		<default></default>
+		<default>0x3C</default>
 	</attribute>
 	<attribute>
 		<id>NEST_PLL_BUCKET</id>
@@ -13189,7 +13216,7 @@
 	</attribute>
 	<attribute>
 		<id>PERF_24x7_INVOCATION_TIME_MS</id>
-		<default></default>
+		<default>0x1</default>
 	</attribute>
 	<attribute>
 		<id>PHYP_SYSTEM_TYPE</id>
@@ -13370,12 +13397,12 @@
 	<attribute>
 		<id>SP_FUNCTIONS</id>
 		<default>
-				<field><id>baseServices</id><value></value></field>
-				<field><id>fsiSlaveInit</id><value></value></field>
-				<field><id>mailboxEnabled</id><value></value></field>
-				<field><id>fsiMasterInit</id><value></value></field>
-				<field><id>hardwareChangeDetection</id><value></value></field>
-				<field><id>powerLineDisturbance</id><value></value></field>
+				<field><id>baseServices</id><value>0</value></field>
+				<field><id>fsiSlaveInit</id><value>1</value></field>
+				<field><id>mailboxEnabled</id><value>0</value></field>
+				<field><id>fsiMasterInit</id><value>1</value></field>
+				<field><id>hardwareChangeDetection</id><value>0</value></field>
+				<field><id>powerLineDisturbance</id><value>1</value></field>
 				<field><id>reserved</id><value></value></field>
 		</default>
 	</attribute>
@@ -13385,7 +13412,7 @@
 	</attribute>
 	<attribute>
 		<id>SUPPORTED_STOP_STATES</id>
-		<default>0xEC100000</default>
+		<default>0xB0100000</default>
 	</attribute>
 	<attribute>
 		<id>SYS0_REFCLOCK_RCVR_TERM</id>
@@ -13405,11 +13432,11 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_FMAX_ENABLE</id>
-		<default>OFF</default>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IVRM_DISABLE</id>
-		<default></default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_MMA_POWEROFF_DELAY_POWEROF2_MS</id>
@@ -13437,7 +13464,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_VDM_DISABLE</id>
-		<default>OFF</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>SYS_CLOCK_INTEGRATED_SPARES</id>
@@ -13445,7 +13472,7 @@
 	</attribute>
 	<attribute>
 		<id>SYS_VFRT_STATIC_DATA_ENABLE</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>SYS_VRT_STATIC_DATA_ENABLE</id>
@@ -13481,11 +13508,11 @@
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_FRATIO</id>
-		<default></default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_VRATIO</id>
-		<default></default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>WOF_INDEX_SELECT</id>
@@ -13497,7 +13524,7 @@
 	</attribute>
 	<attribute>
 		<id>WOF_VRATIO_SELECT</id>
-		<default></default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>power-def-filenames</id>
@@ -13551,7 +13578,7 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
-		<default>unknown</default>
+		<default>k0:n0</default>
 	</attribute>
 	<attribute>
 		<id>FRU_ID</id>
@@ -13571,7 +13598,7 @@
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
-		<default></default>
+		<default>physical:sys-0/node-0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -72825,7 +72852,7 @@
 	</attribute>
 	<attribute>
 		<id>AVSBUS_BUSNUM</id>
-		<default>0xFF,0xFF,0xFF,0xFF</default>
+		<default>0x00,0x01,0xFF,0xFF</default>
 	</attribute>
 	<attribute>
 		<id>AVSBUS_FREQUENCY</id>
