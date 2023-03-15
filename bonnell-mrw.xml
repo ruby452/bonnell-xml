@@ -11403,7 +11403,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>OCAPI</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -11440,7 +11440,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc2/iohs4</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>SMPX</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -11552,7 +11552,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>SMPX</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -12028,7 +12028,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc3/iohs6</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>SMPX</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -12051,7 +12051,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value>SMPX</value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -12946,7 +12946,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_DRAM_DATABUS_UTIL</id>
-		<default>0x00002328</default>
+		<default>0x00002710</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_NUMBER_DIMMS_POSSIBLE_PER_VMEM_REGULATOR</id>
@@ -13006,7 +13006,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_REFRESH_RATE_REQUEST</id>
-		<default>0x0</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_RESET_DELAY_BEFORE_CAL</id>
@@ -65796,7 +65796,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2133</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -66211,7 +66211,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2133</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -66527,7 +66527,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2133</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -66738,7 +66738,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2133</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -67055,7 +67055,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2133</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -67266,7 +67266,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2133</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -67634,7 +67634,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2133</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -67845,7 +67845,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2133</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
