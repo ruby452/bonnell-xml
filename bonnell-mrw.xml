@@ -12730,11 +12730,11 @@
 	</attribute>
 	<attribute>
 		<id>MEM_MIRRORING_ALLOWED</id>
-		<default></default>
+		<default>false</default>
 	</attribute>
 	<attribute>
 		<id>MEM_MIRRORING_ENABLE_DEFAULT</id>
-		<default></default>
+		<default>false</default>
 	</attribute>
 	<attribute>
 		<id>MEM_POWER_CONTROL_USAGE</id>
