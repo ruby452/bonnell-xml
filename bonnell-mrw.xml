@@ -2835,6 +2835,43 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>OMI_BIST_DAC_TEST</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLED</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>OMI_BIST_ESD_TEST</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLED</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>OMI_RX_LANES</id>
+		<enumerator>
+		<name>X8</name>
+		<value>0xFF</value>
+		</enumerator>
+		<enumerator>
+		<name>X2</name>
+		<value>0x81</value>
+		</enumerator>
+		<enumerator>
+		<name>X4</name>
+		<value>0xA5</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>OMI_SPREAD_SPECTRUM</id>
 		<enumerator>
 		<name>DISABLED</name>
@@ -2843,6 +2880,21 @@
 		<enumerator>
 		<name>ENABLED</name>
 		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>OMI_TX_LANES</id>
+		<enumerator>
+		<name>X8</name>
+		<value>0xFF</value>
+		</enumerator>
+		<enumerator>
+		<name>X2</name>
+		<value>0x81</value>
+		</enumerator>
+		<enumerator>
+		<name>X4</name>
+		<value>0xA5</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -11523,7 +11575,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pec0</id>
 	<property>
 	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
-	<value>0x1,0x0,0x0</value>
+	<value>0x0,0x0,0x0</value>
 	</property>
 	<property>
 	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
@@ -11596,7 +11648,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pec1</id>
 	<property>
 	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
-	<value>0x1,0x0,0x0</value>
+	<value>0x0,0x0,0x0</value>
 	</property>
 	<property>
 	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
@@ -12049,7 +12101,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pec0</id>
 	<property>
 	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
-	<value>0x1,0x0,0x0</value>
+	<value>0x0,0x0,0x0</value>
 	</property>
 	<property>
 	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
@@ -12064,7 +12116,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pec1</id>
 	<property>
 	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
-	<value>0x1,0x0,0x0</value>
+	<value>0x0,0x0,0x0</value>
 	</property>
 	<property>
 	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
@@ -12594,6 +12646,18 @@
 	<attribute>
 		<id>HW543822_WAR_MODE</id>
 		<default>NONE</default>
+	</attribute>
+	<attribute>
+		<id>INDEX_N_BULK_POWER_LIMIT_WATTS</id>
+		<default>0,0,0,0,0,0,0,0,0,0,0,0</default>
+	</attribute>
+	<attribute>
+		<id>INDEX_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
+		<default>0,0,0,0,0,0,0,0,0,0,0,0</default>
+	</attribute>
+	<attribute>
+		<id>INDEX_POWER_LIMIT_CONFIG</id>
+		<default>0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -73795,10 +73859,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>SPPE_TARGET_STATE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
 		<default>NA</default>
 	</attribute>
@@ -97048,6 +97108,10 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
+		<id>FREQ_OMI_MHZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
 	</attribute>
@@ -97093,6 +97157,26 @@
 	<attribute>
 		<id>OCMB_COUNTER</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_DAC_TEST</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_ESD_TEST</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_TIMER</id>
+		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_LANES</id>
+		<default>X8</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_LANES</id>
+		<default>X8</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -97246,10 +97330,6 @@
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SPPE_TARGET_STATE</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -97413,6 +97493,10 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
+		<id>FREQ_OMI_MHZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
 	</attribute>
@@ -97458,6 +97542,26 @@
 	<attribute>
 		<id>OCMB_COUNTER</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_DAC_TEST</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_ESD_TEST</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_TIMER</id>
+		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_LANES</id>
+		<default>X8</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_LANES</id>
+		<default>X8</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -97519,6 +97623,10 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
+		<id>FREQ_OMI_MHZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
 	</attribute>
@@ -97564,6 +97672,26 @@
 	<attribute>
 		<id>OCMB_COUNTER</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_DAC_TEST</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_ESD_TEST</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_TIMER</id>
+		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_LANES</id>
+		<default>X8</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_LANES</id>
+		<default>X8</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -97625,6 +97753,10 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
+		<id>FREQ_OMI_MHZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
 	</attribute>
@@ -97670,6 +97802,26 @@
 	<attribute>
 		<id>OCMB_COUNTER</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_DAC_TEST</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_ESD_TEST</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_TIMER</id>
+		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_LANES</id>
+		<default>X8</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_LANES</id>
+		<default>X8</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
