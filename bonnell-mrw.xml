@@ -392,25 +392,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>CLOCKSTOP_ON_XSTOP</id>
-		<enumerator>
-		<name>DISABLED</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>STOP_ON_XSTOP_AND_SPATTN</name>
-		<value>0x5B</value>
-		</enumerator>
-		<enumerator>
-		<name>STOP_ON_XSTOP</name>
-		<value>0x7B</value>
-		</enumerator>
-		<enumerator>
-		<name>STOP_ON_STAGED_XSTOP</name>
-		<value>0xFD</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
 		<enumerator>
 		<name>SYS_REFCLOCK0</name>
@@ -2860,15 +2841,15 @@
 	<id>OMI_RX_LANES</id>
 		<enumerator>
 		<name>X8</name>
-		<value>0xFF</value>
+		<value>0xFF000000</value>
 		</enumerator>
 		<enumerator>
 		<name>X2</name>
-		<value>0x81</value>
+		<value>0x81000000</value>
 		</enumerator>
 		<enumerator>
 		<name>X4</name>
-		<value>0xA5</value>
+		<value>0xA5000000</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -2886,15 +2867,15 @@
 	<id>OMI_TX_LANES</id>
 		<enumerator>
 		<name>X8</name>
-		<value>0xFF</value>
+		<value>0xFF000000</value>
 		</enumerator>
 		<enumerator>
 		<name>X2</name>
-		<value>0x81</value>
+		<value>0x81000000</value>
 		</enumerator>
 		<enumerator>
 		<name>X4</name>
-		<value>0xA5</value>
+		<value>0xA5000000</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -11575,7 +11556,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pec0</id>
 	<property>
 	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
-	<value>0x0,0x0,0x0</value>
+	<value>0x1,0x0,0x0</value>
 	</property>
 	<property>
 	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
@@ -11648,7 +11629,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/pec1</id>
 	<property>
 	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
-	<value>0x0,0x0,0x0</value>
+	<value>0x1,0x0,0x0</value>
 	</property>
 	<property>
 	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
@@ -12101,7 +12082,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pec0</id>
 	<property>
 	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
-	<value>0x0,0x0,0x0</value>
+	<value>0x1,0x0,0x0</value>
 	</property>
 	<property>
 	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
@@ -12116,7 +12097,7 @@
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-1/pec1</id>
 	<property>
 	<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
-	<value>0x0,0x0,0x0</value>
+	<value>0x1,0x0,0x0</value>
 	</property>
 	<property>
 	<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
@@ -56744,10 +56725,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>CLOCKSTOP_ON_XSTOP</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
 		<default>SYS_REFCLOCK0</default>
 	</attribute>
@@ -72881,10 +72858,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
-	</attribute>
-	<attribute>
-		<id>CLOCKSTOP_ON_XSTOP</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
@@ -97089,10 +97062,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>CLOCKSTOP_ON_XSTOP</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FAPI_I2C_CONTROL_INFO</id>
 		<default>
 				<field><id>i2cMasterPath</id><value></value></field>
@@ -97171,12 +97140,48 @@
 		<default>5</default>
 	</attribute>
 	<attribute>
+		<id>OMI_CHANNEL_LENGTH</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_HORIZ_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>OMI_RX_LANES</id>
 		<default>X8</default>
 	</attribute>
 	<attribute>
+		<id>OMI_RX_LTEG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_LTEZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_PHASE_STEP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_VERT_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>OMI_TX_LANES</id>
 		<default>X8</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_POST</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_PRE1</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_PRE2</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -97474,10 +97479,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>CLOCKSTOP_ON_XSTOP</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FAPI_I2C_CONTROL_INFO</id>
 		<default>
 				<field><id>i2cMasterPath</id><value></value></field>
@@ -97556,12 +97557,48 @@
 		<default>5</default>
 	</attribute>
 	<attribute>
+		<id>OMI_CHANNEL_LENGTH</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_HORIZ_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>OMI_RX_LANES</id>
 		<default>X8</default>
 	</attribute>
 	<attribute>
+		<id>OMI_RX_LTEG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_LTEZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_PHASE_STEP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_VERT_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>OMI_TX_LANES</id>
 		<default>X8</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_POST</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_PRE1</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_PRE2</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -97604,10 +97641,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>CLOCKSTOP_ON_XSTOP</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FAPI_I2C_CONTROL_INFO</id>
 		<default>
 				<field><id>i2cMasterPath</id><value></value></field>
@@ -97686,12 +97719,48 @@
 		<default>5</default>
 	</attribute>
 	<attribute>
+		<id>OMI_CHANNEL_LENGTH</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_HORIZ_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>OMI_RX_LANES</id>
 		<default>X8</default>
 	</attribute>
 	<attribute>
+		<id>OMI_RX_LTEG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_LTEZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_PHASE_STEP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_VERT_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>OMI_TX_LANES</id>
 		<default>X8</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_POST</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_PRE1</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_PRE2</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -97734,10 +97803,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>CLOCKSTOP_ON_XSTOP</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FAPI_I2C_CONTROL_INFO</id>
 		<default>
 				<field><id>i2cMasterPath</id><value></value></field>
@@ -97816,12 +97881,48 @@
 		<default>5</default>
 	</attribute>
 	<attribute>
+		<id>OMI_CHANNEL_LENGTH</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_HORIZ_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>OMI_RX_LANES</id>
 		<default>X8</default>
 	</attribute>
 	<attribute>
+		<id>OMI_RX_LTEG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_LTEZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_PHASE_STEP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_VERT_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>OMI_TX_LANES</id>
 		<default>X8</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_POST</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_PRE1</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_PRE2</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
