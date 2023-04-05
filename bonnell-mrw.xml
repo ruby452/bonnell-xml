@@ -57254,7 +57254,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_VRM_VOFFSET_UV</id>
-		<default></default>
+		<default>0,0,50000,0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -73397,7 +73397,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_VRM_VOFFSET_UV</id>
-		<default></default>
+		<default>0,0,50000,0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
