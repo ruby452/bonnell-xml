@@ -12689,18 +12689,6 @@
 		<default>NONE</default>
 	</attribute>
 	<attribute>
-		<id>INDEX_N_BULK_POWER_LIMIT_WATTS</id>
-		<default>0,0,0,0,0,0,0,0,0,0,0,0</default>
-	</attribute>
-	<attribute>
-		<id>INDEX_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
-		<default>0,0,0,0,0,0,0,0,0,0,0,0</default>
-	</attribute>
-	<attribute>
-		<id>INDEX_POWER_LIMIT_CONFIG</id>
-		<default>0,0,0,0,0,0,0,0,0,0,0,0</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
