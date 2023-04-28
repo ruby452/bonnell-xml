@@ -4027,21 +4027,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>SPPE_BOOT_SIDE</id>
-		<enumerator>
-		<name>SIDE1</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>SIDE0</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>GOLDEN</name>
-		<value>0x2</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>STANDBY_PLUGGABLE</id>
 		<enumerator>
 		<name>NO</name>
@@ -15603,7 +15588,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -15899,7 +15884,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -15973,7 +15958,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16010,7 +15995,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16047,7 +16032,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16232,7 +16217,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16343,7 +16328,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16380,7 +16365,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16417,7 +16402,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16454,7 +16439,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16491,7 +16476,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16528,7 +16513,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16565,7 +16550,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16639,7 +16624,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16750,7 +16735,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16787,7 +16772,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17823,7 +17808,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17860,7 +17845,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17897,7 +17882,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18082,7 +18067,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-0/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-0/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18119,7 +18104,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-1/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-1/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18156,7 +18141,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-3/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-3/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18193,7 +18178,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-2/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-2/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18378,7 +18363,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-0/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-0/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18415,7 +18400,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-1/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-1/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18452,7 +18437,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-3/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-3/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18489,7 +18474,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-2/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-2/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -57283,10 +57268,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>SCAN0_SCAN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>SKEWADJ_BYPASS</id>
 		<default></default>
 	</attribute>
@@ -57304,10 +57285,6 @@
 	</attribute>
 	<attribute>
 		<id>SPI_SBE_BOOT_CODE_PRIMARY_INFO_CALLOUTS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SPPE_BOOT_SIDE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -73426,10 +73403,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>SCAN0_SCAN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>SKEWADJ_BYPASS</id>
 		<default></default>
 	</attribute>
@@ -73447,10 +73420,6 @@
 	</attribute>
 	<attribute>
 		<id>SPI_SBE_BOOT_CODE_PRIMARY_INFO_CALLOUTS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SPPE_BOOT_SIDE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -74059,6 +74028,10 @@
 	</attribute>
 	<attribute>
 		<id>POS_ON_MEM_PORT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PREHEAT_PERCENT</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -97382,7 +97355,11 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>OMI_RX_HORIZ_OFFSET</id>
+		<id>OMI_RX_HORIZ_DATA_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_HORIZ_EDGE_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -97436,14 +97413,6 @@
 	<attribute>
 		<id>RU_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>SCAN0_SCAN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>SPPE_BOOT_SIDE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -97807,7 +97776,11 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>OMI_RX_HORIZ_OFFSET</id>
+		<id>OMI_RX_HORIZ_DATA_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_HORIZ_EDGE_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -97861,14 +97834,6 @@
 	<attribute>
 		<id>RU_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>SCAN0_SCAN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>SPPE_BOOT_SIDE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -97977,7 +97942,11 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>OMI_RX_HORIZ_OFFSET</id>
+		<id>OMI_RX_HORIZ_DATA_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_HORIZ_EDGE_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -98031,14 +98000,6 @@
 	<attribute>
 		<id>RU_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>SCAN0_SCAN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>SPPE_BOOT_SIDE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -98147,7 +98108,11 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>OMI_RX_HORIZ_OFFSET</id>
+		<id>OMI_RX_HORIZ_DATA_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_HORIZ_EDGE_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -98201,14 +98166,6 @@
 	<attribute>
 		<id>RU_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>SCAN0_SCAN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>SPPE_BOOT_SIDE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
