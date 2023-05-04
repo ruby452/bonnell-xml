@@ -88049,15 +88049,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>0</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_RESERVED</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88069,7 +88069,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -88167,7 +88167,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -88226,7 +88226,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -88352,7 +88352,7 @@
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>27.98</default>
+		<default>33.33</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88525,11 +88525,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_0</default>
+		<default>12V_EFUSE_SYSTEM_TOTAL_POWER</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>26.54</default>
+		<default>100</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88580,15 +88580,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>6</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>26.54</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88639,15 +88639,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>9</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VDN_PROC_0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>18.6</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88698,15 +88698,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>10</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VDN_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>18.6</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88757,15 +88757,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>1</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>40</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88816,15 +88816,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>2</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>40</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88875,15 +88875,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>34</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_PCIE_CURRENT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>78.2</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88934,7 +88934,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89083,11 +89083,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>1</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_FAN_WATCHDOG_ERROR</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -89138,11 +89138,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>2</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_FAN_FULL_SPEED</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -89578,11 +89578,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>4</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_FAN_RESERVED</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -89633,11 +89633,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>5</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_VR_HOT_MEM_PROC_0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -89688,11 +89688,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>6</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_VR_HOT_MEM_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -90384,13 +90384,13 @@
 	<attribute>
 		<id>CURRENT_MAX</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>0.1</id><value></value></field>
 		</default>
 	</attribute>
 	<attribute>
 		<id>CURRENT_NOM</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>0.05</id><value></value></field>
 		</default>
 	</attribute>
 	<attribute>
