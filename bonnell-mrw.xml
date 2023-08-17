@@ -8131,7 +8131,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x22</value>
+	<value>0xC8</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11265,6 +11265,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/i2c-master-dimm45</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/i2c-master-dimm67</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/i2c-master-lightpath</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11273,6 +11287,27 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/i2c-master-op0a</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/i2c-master-op0b</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/i2c-master-op1a</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/i2c-master-op2b</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -12366,6 +12401,13 @@
 	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0</id>
+	<property>
+	<id>FRU_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
