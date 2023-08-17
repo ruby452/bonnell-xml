@@ -84,6 +84,10 @@
 		<value>15</value>
 		</enumerator>
 		<enumerator>
+		<name>DDR</name>
+		<value>31</value>
+		</enumerator>
+		<enumerator>
 		<name>OBUS</name>
 		<value>27</value>
 		</enumerator>
@@ -158,6 +162,10 @@
 		<enumerator>
 		<name>U750</name>
 		<value>16</value>
+		</enumerator>
+		<enumerator>
+		<name>DDR5</name>
+		<value>30</value>
 		</enumerator>
 		<enumerator>
 		<name>DDR4</name>
@@ -1852,45 +1860,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>MNFG_FLAGS</id>
-		<enumerator>
-		<name>MNFG_NO_FLAG</name>
-		<value>0x0000000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_MEMORY_eREPAIR</name>
-		<value>0x0000000000001000</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ENABLE_STANDARD_PATTERN_TEST</name>
-		<value>0x0000000000000200</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DMI_DEPLOY_LANE_SPARES</name>
-		<value>0x0000000000004000</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_TEST_ALL_SPARE_DRAM_ROWS</name>
-		<value>0x0000000000000040</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_THRESHOLDS</name>
-		<value>0x0000000000000001</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_DRAM_REPAIRS</name>
-		<value>0x0000000000000080</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_FABRIC_DEPLOY_LANE_SPARES</name>
-		<value>0x0000000000002000</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_FABRIC_eREPAIR</name>
-		<value>0x0000000000000800</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>MODEL</id>
 		<enumerator>
 		<name>MURANO</name>
@@ -2656,17 +2625,6 @@
 		<enumerator>
 		<name>SERDES_23_46GBPS</name>
 		<value>2</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>MSS_OCMB_ODY_OMI_CFG_ENDIAN_CTRL</id>
-		<enumerator>
-		<name>BIG_ENDIAN</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>LITTLE_ENDIAN</name>
-		<value>0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -9001,6 +8959,24 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/bmc-0/chip-bmc-ast2600.pin_C19_gpioj4j5_i2c3</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/bmc-0/chip-bmc-ast2600.pin_C19_gpioj4j5_i2c3/chip-bmc-ast2600.pingroup_i2c3/chip-bmc-ast2600.I2C3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/bmc-0/chip-bmc-ast2600.pin_C20_gpioj6j7_i2c4/chip-bmc-ast2600.pingroup_i2c4/chip-bmc-ast2600.I2C4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -10393,7 +10369,7 @@
 	<id>/sys-0/node-0/pennybacker-0/pcieslot-x16-C0-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
-	<value></value>
+	<value>PCIE_X16_CARD</value>
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
@@ -10405,6 +10381,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/pcieslot-x16-C0-0/pcie-card-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/pcieslot-x16-C0-0/pcie-card-0/clk-in</id>
 	<property>
 	<id>DIRECTION</id>
@@ -10412,6 +10395,29 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/pcieslot-x16-C0-0/pcie-card-0/enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10438,6 +10444,51 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/pcieslot-x16-C0-0/pcie-card-0/pgood</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/pcieslot-x16-C0-0/pcie-card-0/presence</id>
+	<property>
+	<id>PRESENCE_DETECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/pcieslot-x16-C2-2</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value>PCIE_X16_CARD</value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10475,6 +10526,28 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/pcieslot-x8-C1-1</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value>PCIE_X8_CARD</value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/pcieslot-x8-C1-1/pcie-card-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10519,7 +10592,7 @@
 	<id>/sys-0/node-0/pennybacker-0/pcieslot-x8-C3-3</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
-	<value></value>
+	<value>PCIE_X8_CARD</value>
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
@@ -12603,16 +12676,16 @@
 		<default>84</default>
 	</attribute>
 	<attribute>
+		<id>DIMM_POWER_UTIL_INTERMEDIATE_POINTS</id>
+		<default>50,75,0,0,0,0,0,0,0,0</default>
+	</attribute>
+	<attribute>
 		<id>DIMM_READ_TIMEOUT_SEC</id>
 		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>DIMM_THROTTLE_TEMP_DEG_C</id>
 		<default>69</default>
-	</attribute>
-	<attribute>
-		<id>EARLY_TESTCASES_ISTEP</id>
-		<default>0x0609</default>
 	</attribute>
 	<attribute>
 		<id>EXECUTION_PLATFORM</id>
@@ -12688,6 +12761,10 @@
 		<default>NONE</default>
 	</attribute>
 	<attribute>
+		<id>INDEX_MIN_POWER_CAP_WATTS</id>
+		<default>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
+	</attribute>
+	<attribute>
 		<id>INDEX_N_BULK_POWER_LIMIT_WATTS</id>
 		<default>0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
@@ -12737,6 +12814,10 @@
 	</attribute>
 	<attribute>
 		<id>MAX_DIMMS_PER_MBA_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MAX_DIMM_POWER</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -12821,10 +12902,6 @@
 	</attribute>
 	<attribute>
 		<id>MNFG_DMI_MIN_EYE_WIDTH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MNFG_FLAGS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -13130,10 +13207,6 @@
 	<attribute>
 		<id>MSS_OCMB_ENTERPRISE_POLICY</id>
 		<default>ALLOW_ENTERPRISE</default>
-	</attribute>
-	<attribute>
-		<id>MSS_OCMB_ODY_OMI_CFG_ENDIAN_CTRL</id>
-		<default>LITTLE_ENDIAN</default>
 	</attribute>
 	<attribute>
 		<id>MSS_OMI_EDPL_DISABLE</id>
@@ -13492,6 +13565,10 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_RING_DBG_MODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SYSTEM_THERMAL_RESISTANCE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -15588,7 +15665,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -15810,7 +15887,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/lcd_op_panel_connector-0/russell-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/lcd_op_panel_connector-0/russell-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -15847,7 +15924,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/lcd_op_panel_connector-0/russell-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/lcd_op_panel_connector-0/russell-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -15884,7 +15961,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -15921,7 +15998,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -15958,7 +16035,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -15995,44 +16072,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_BUS_ALIAS</id>
-		<default></default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_PURPOSE</id>
-		<default></default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_SPEED</id>
-		<default>400</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_TYPE</id>
-		<default></default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>bmc-0/chip-bmc-ast2600.pin_C20_gpioj6j7_i2c4/chip-bmc-ast2600.pingroup_i2c4/chip-bmc-ast2600.I2C4 => UCD90160-0/UCD90160.i2c</bus_id>
-		<bus_type>I2C</bus_type>
-		<cable>no</cable>
-		<source_path>bmc-0/chip-bmc-ast2600.pin_C20_gpioj6j7_i2c4/chip-bmc-ast2600.pingroup_i2c4/</source_path>
-		<source_target>chip-bmc-ast2600.I2C4</source_target>
-		<dest_path>UCD90160-0/</dest_path>
-		<dest_target>UCD90160.i2c</dest_target>
-		<bus_attribute>
-			<id>BUS_WIDTH</id>
-		<default>2</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16069,7 +16109,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16106,7 +16146,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16143,7 +16183,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/power_distribution_connector-0/bats-0/power-supply-connector-0/power-supply-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/power_distribution_connector-0/bats-0/power-supply-connector-0/power-supply-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16180,7 +16220,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/power_distribution_connector-0/bats-0/power-supply-connector-1/power-supply-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/power_distribution_connector-0/bats-0/power-supply-connector-1/power-supply-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16217,7 +16257,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16254,7 +16294,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16291,7 +16331,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16328,7 +16368,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16365,7 +16405,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16402,7 +16442,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16439,7 +16479,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16476,7 +16516,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16513,7 +16553,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16550,7 +16590,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16587,7 +16627,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16624,7 +16664,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16698,7 +16738,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16735,7 +16775,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16772,7 +16812,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16809,7 +16849,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16842,11 +16882,11 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>CLASS</id>
-		<default>BUS</default>
+		<default>null</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-0/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16883,7 +16923,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-0/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16920,7 +16960,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-1/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16957,7 +16997,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-1/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -16994,7 +17034,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-2/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17031,7 +17071,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-2/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17068,7 +17108,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-3/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17105,7 +17145,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-3/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17142,7 +17182,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17179,7 +17219,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17216,7 +17256,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-0/nvme-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-0/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17253,7 +17293,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-0/nvme-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-0/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17290,7 +17330,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-1/nvme-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-1/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17327,7 +17367,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-1/nvme-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-1/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17364,7 +17404,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-2/nvme-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-2/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17401,7 +17441,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-2/nvme-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-2/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17438,7 +17478,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-3/nvme-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-3/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17475,7 +17515,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0/,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-3/nvme-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/bmc-0,H:/sys-0/node-0/pennybacker-0/NVME_connector-0/driskill-0/nvme-conn-3/nvme-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17512,7 +17552,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17549,7 +17589,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17586,7 +17626,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -17623,7 +17663,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0/</default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18067,7 +18107,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-0/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/dimm_connector-0/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18104,7 +18144,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-1/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/dimm_connector-1/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18141,7 +18181,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-3/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/dimm_connector-3/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18178,7 +18218,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-2/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/dimm_connector-2/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18363,7 +18403,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-0/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/dimm_connector-0/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18400,7 +18440,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-1/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/dimm_connector-1/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18437,7 +18477,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-3/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/dimm_connector-3/dimm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18474,7 +18514,44 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/ddimm_connector-2/dimm-0</default>
+		<default>L:/sys-0/node-0/pennybacker-0,L:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0,H:/sys-0/node-0/pennybacker-0/dimm_connector-2/dimm-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2600.pin_C19_gpioj4j5_i2c3/chip-bmc-ast2600.pingroup_i2c3/chip-bmc-ast2600.I2C3 => UCD90160-0/UCD90160.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2600.pin_C19_gpioj4j5_i2c3/chip-bmc-ast2600.pingroup_i2c3/</source_path>
+		<source_target>chip-bmc-ast2600.I2C3</source_target>
+		<dest_path>UCD90160-0/</dest_path>
+		<dest_target>UCD90160.i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -56928,6 +57005,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>CHIP_FAN_CFM</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
@@ -57262,10 +57343,6 @@
 	<attribute>
 		<id>RU_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>SAFE_MODE_THROTTLE_IDX</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>SKEWADJ_BYPASS</id>
@@ -73063,6 +73140,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>CHIP_FAN_CFM</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
@@ -73397,10 +73478,6 @@
 	<attribute>
 		<id>RU_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>SAFE_MODE_THROTTLE_IDX</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>SKEWADJ_BYPASS</id>
@@ -75368,11 +75445,11 @@
 	<child_id>pcie-card-0</child_id>
 	<attribute>
 		<id>32BIT_DMA_SIZE</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>32BIT_MMIO_SIZE</id>
-		<default></default>
+		<default>2040</default>
 	</attribute>
 	<attribute>
 		<id>64BIT_DMA_SIZE</id>
@@ -75380,7 +75457,7 @@
 	</attribute>
 	<attribute>
 		<id>64BIT_MMIO_SIZE</id>
-		<default></default>
+		<default>256</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -75400,11 +75477,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C0</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MAX_POWER</id>
@@ -77112,11 +77189,11 @@
 	<child_id>pcie-card-0</child_id>
 	<attribute>
 		<id>32BIT_DMA_SIZE</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>32BIT_MMIO_SIZE</id>
-		<default></default>
+		<default>2040</default>
 	</attribute>
 	<attribute>
 		<id>64BIT_DMA_SIZE</id>
@@ -77124,7 +77201,7 @@
 	</attribute>
 	<attribute>
 		<id>64BIT_MMIO_SIZE</id>
-		<default></default>
+		<default>256</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -77144,11 +77221,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C1</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MAX_POWER</id>
@@ -77192,11 +77269,11 @@
 	<child_id>pcie-card-0</child_id>
 	<attribute>
 		<id>32BIT_DMA_SIZE</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>32BIT_MMIO_SIZE</id>
-		<default></default>
+		<default>2040</default>
 	</attribute>
 	<attribute>
 		<id>64BIT_DMA_SIZE</id>
@@ -77204,7 +77281,7 @@
 	</attribute>
 	<attribute>
 		<id>64BIT_MMIO_SIZE</id>
-		<default></default>
+		<default>256</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -77224,11 +77301,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C2</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MAX_POWER</id>
@@ -77272,11 +77349,11 @@
 	<child_id>pcie-card-0</child_id>
 	<attribute>
 		<id>32BIT_DMA_SIZE</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>32BIT_MMIO_SIZE</id>
-		<default></default>
+		<default>2040</default>
 	</attribute>
 	<attribute>
 		<id>64BIT_DMA_SIZE</id>
@@ -77284,7 +77361,7 @@
 	</attribute>
 	<attribute>
 		<id>64BIT_MMIO_SIZE</id>
-		<default></default>
+		<default>256</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -77304,11 +77381,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C3</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MAX_POWER</id>
@@ -81923,7 +82000,7 @@
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>CHIP</default>
 	</attribute>
 	<attribute>
 		<id>MEMORY_SIZE_IN_KB</id>
@@ -88049,15 +88126,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>0</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_RESERVED</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88069,7 +88146,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -88167,7 +88244,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -88226,7 +88303,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -88352,7 +88429,7 @@
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>27.98</default>
+		<default>33.33</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88525,11 +88602,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_0</default>
+		<default>12V_EFUSE_SYSTEM_TOTAL_POWER</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>26.54</default>
+		<default>100</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88580,15 +88657,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>6</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>26.54</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88639,15 +88716,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>9</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VDN_PROC_0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>18.6</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88698,15 +88775,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>10</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VDN_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>18.6</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88757,15 +88834,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>1</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>40</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88816,15 +88893,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>2</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>40</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88875,15 +88952,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>34</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_PCIE_CURRENT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>78.2</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -88934,7 +89011,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89083,11 +89160,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>1</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_FAN_WATCHDOG_ERROR</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -89138,11 +89215,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>2</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_FAN_FULL_SPEED</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -89578,11 +89655,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>4</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_FAN_RESERVED</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -89633,11 +89710,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>5</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_VR_HOT_MEM_PROC_0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -89688,11 +89765,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>6</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_VR_HOT_MEM_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -91862,7 +91939,7 @@
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>CHIP</default>
 	</attribute>
 	<attribute>
 		<id>MEMORY_SIZE_IN_KB</id>
@@ -93067,7 +93144,7 @@
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>CHIP</default>
 	</attribute>
 	<attribute>
 		<id>MEMORY_SIZE_IN_KB</id>
@@ -95072,7 +95149,7 @@
 	<child_id>PCA9849.RESET</child_id>
 	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>CHIP</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -97375,10 +97452,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>OMI_RX_PHASE_STEP</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>OMI_RX_VERT_OFFSET</id>
 		<default>0</default>
 	</attribute>
@@ -97796,10 +97869,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>OMI_RX_PHASE_STEP</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>OMI_RX_VERT_OFFSET</id>
 		<default>0</default>
 	</attribute>
@@ -97962,10 +98031,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>OMI_RX_PHASE_STEP</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>OMI_RX_VERT_OFFSET</id>
 		<default>0</default>
 	</attribute>
@@ -98125,10 +98190,6 @@
 	</attribute>
 	<attribute>
 		<id>OMI_RX_LTEZ</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>OMI_RX_PHASE_STEP</id>
 		<default></default>
 	</attribute>
 	<attribute>
