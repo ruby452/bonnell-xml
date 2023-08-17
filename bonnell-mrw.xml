@@ -8386,6 +8386,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/base_op_panel_connector-0</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/base_op_panel_connector-0/blyth-0</id>
 	<property>
 	<id>FRU_ID</id>
@@ -8404,6 +8411,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/base_op_panel_connector-0/blyth-0/blyth-PCA9551-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -8522,7 +8536,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x40</value>
+	<value>0x80</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9245,6 +9259,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/bmc-0/chip-bmc-ast2600.pin_K26_gpioa4_i2c13_sgps2</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/bmc-0/chip-bmc-ast2600.pin_K26_gpioa4_i2c13_sgps2/chip-bmc-ast2600.pingroup_i2c13/chip-bmc-ast2600.I2C13</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9259,9 +9284,31 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -18583,6 +18630,43 @@
 		<source_target>chip-bmc-ast2600.I2C3</source_target>
 		<dest_path>UCD90160-0/</dest_path>
 		<dest_target>UCD90160.i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12 => IR95221_0_9VA-4/vrd-i2c-2.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/</source_path>
+		<source_target>chip-bmc-ast2600.I2C12</source_target>
+		<dest_path>IR95221_0_9VA-4/</dest_path>
+		<dest_target>vrd-i2c-2.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
