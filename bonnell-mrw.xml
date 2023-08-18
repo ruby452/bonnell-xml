@@ -5658,6 +5658,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/IR35221_VPCIE_VIO-2</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/IR35221_VPCIE_VIO-2/vrd-i2c-2.enable1</id>
 	<property>
 	<id>DIRECTION</id>
@@ -7603,6 +7614,13 @@
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/TMP435-1</id>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
@@ -18690,6 +18708,80 @@
 		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => IR35221_VDN_VCS-1/vrd-i2c.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/</source_path>
+		<source_target>chip-bmc-ast2600.I2C10</source_target>
+		<dest_path>IR35221_VDN_VCS-1/</dest_path>
+		<dest_target>vrd-i2c.i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => IR35221_VPCIE_VIO-2/vrd-i2c.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/</source_path>
+		<source_target>chip-bmc-ast2600.I2C10</source_target>
+		<dest_path>IR35221_VPCIE_VIO-2/</dest_path>
+		<dest_target>vrd-i2c.i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -88252,7 +88344,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -88370,7 +88462,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -88429,7 +88521,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -88783,7 +88875,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -88842,7 +88934,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -88901,7 +88993,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default>t>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -88960,7 +89052,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89019,7 +89111,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89078,7 +89170,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89137,7 +89229,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89286,7 +89378,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89341,7 +89433,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89396,7 +89488,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89451,7 +89543,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89506,7 +89598,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89561,7 +89653,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89616,7 +89708,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89671,7 +89763,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89726,7 +89818,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89781,7 +89873,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89836,7 +89928,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89891,7 +89983,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -89946,7 +90038,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -90001,7 +90093,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -90056,7 +90148,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -90111,7 +90203,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -90331,7 +90423,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -90386,7 +90478,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -90441,7 +90533,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -90496,7 +90588,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
