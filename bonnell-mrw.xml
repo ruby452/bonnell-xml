@@ -88993,7 +88993,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>t>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
