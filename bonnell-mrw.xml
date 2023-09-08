@@ -14344,7 +14344,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0/bmc-0, L:/sys-0/node-0/pennybacker-0, H:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14365,7 +14365,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0, H:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18732,7 +18732,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18744,7 +18744,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -18769,7 +18769,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/bmc-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
@@ -18781,7 +18781,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
