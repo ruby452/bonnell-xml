@@ -2774,6 +2774,21 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>ODY_RECOVERY_STATUS</id>
+		<enumerator>
+		<name>IN_PROGRESS</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>VIABLE</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>DEAD</name>
+		<value>2</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>OMI_BIST_DAC_TEST</id>
 		<enumerator>
 		<name>DISABLED</name>
@@ -3712,6 +3727,17 @@
 		<enumerator>
 		<name>CLEAR</name>
 		<value>0x0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>SB_SIGNING</id>
+		<enumerator>
+		<name>V1_CONTAINER</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>V2_CONTAINER</name>
+		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -12747,6 +12773,14 @@
 		<default>89</default>
 	</attribute>
 	<attribute>
+		<id>DDR5_N_MAX_MEM_POWER_WATTS</id>
+		<default>1885</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
+		<default>1885</default>
+	</attribute>
+	<attribute>
 		<id>DDR5_PMIC_ERROR_TEMP_DEG_C</id>
 		<default>95</default>
 	</attribute>
@@ -12757,6 +12791,10 @@
 	<attribute>
 		<id>DDR5_PMIC_THROTTLE_TEMP_DEG_C</id>
 		<default>85</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_VDN_UPLIFT_MV</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>DDS_DELAY_ADJUST</id>
@@ -12779,8 +12817,12 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>DEFAULT_MIN_PROC_POWER_PER_CHIP</id>
+		<default>98</default>
+	</attribute>
+	<attribute>
 		<id>DIMM_ERROR_TEMP_DEG_C</id>
-		<default>84</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>DIMM_POWER_UTIL_INTERMEDIATE_POINTS</id>
@@ -12792,7 +12834,7 @@
 	</attribute>
 	<attribute>
 		<id>DIMM_THROTTLE_TEMP_DEG_C</id>
-		<default>69</default>
+		<default>74</default>
 	</attribute>
 	<attribute>
 		<id>EXECUTION_PLATFORM</id>
@@ -12965,7 +13007,7 @@
 	</attribute>
 	<attribute>
 		<id>MEMCTRL_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
+		<default>87</default>
 	</attribute>
 	<attribute>
 		<id>MEMCTRL_READ_TIMEOUT_SEC</id>
@@ -12973,7 +13015,7 @@
 	</attribute>
 	<attribute>
 		<id>MEMCTRL_THROTTLE_TEMP_DEG_C</id>
-		<default>89</default>
+		<default>84</default>
 	</attribute>
 	<attribute>
 		<id>MEM_MIRRORING_ALLOWED</id>
@@ -12994,6 +13036,10 @@
 	<attribute>
 		<id>MIN_POWER_CAP_WATTS</id>
 		<default>2700</default>
+	</attribute>
+	<attribute>
+		<id>MISC_POWER_PER_SYSTEM</id>
+		<default>270</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_ABUS_MIN_EYE_HEIGHT</id>
@@ -13571,6 +13617,10 @@
 		<default>SUPPORTED</default>
 	</attribute>
 	<attribute>
+		<id>SADDLEBACK_VRM_ROLLOVER_ENABLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>SBE_ADDR_KEY_STASH_ADDR</id>
 		<default></default>
 	</attribute>
@@ -13592,6 +13642,10 @@
 	</attribute>
 	<attribute>
 		<id>SBE_HW_KEY_HASH_ADDR</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SBE_SECURE_BOOT_MODE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -97826,6 +97880,10 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MEM_VPD_DQ_MAP</id>
+		<default>2,3,1,0,6,4,5,7,11,9,10,8,12,15,13,14,19,16,18,17,23,21,20,22,35,33,34,32,39,38,36,37,58,56,59,57,60,61,63,62,66,65,64,67,71,70,69,68,75,72,73,74,78,77,79,76,48,49,51,50,54,52,55,53,25,24,27,26,31,30,29,28,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
