@@ -47,15 +47,15 @@
 	</attribute>
 	<attribute>
 		<id>IM_ID</id>
-		<default>IM-Bonnell</default>
+		<default>IM-BONNELL</default>
 	</attribute>
 	<attribute>
 		<id>IM_VALUE</id>
-		<default>0x50001001</default>
+		<default>0x50004000</default>
 	</attribute>
 	<attribute>
 		<id>MRW_ID</id>
-		<default>Bonnell</default>
+		<default>BONNELL</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -67,7 +67,7 @@
 	</attribute>
 	<attribute>
 		<id>TARGET_NAME</id>
-		<default>Bonnell 1s2u P10-ioSCM</default>
+		<default>Bonnell 1S2U P10-ioSCM</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
