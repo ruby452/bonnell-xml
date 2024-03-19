@@ -7693,6 +7693,52 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/TPM_NPCT750AAC-0/NPCT750AAC.RESET</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>GENERIC_INPUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/TPM_NPCT750AAC-0/NPCT750AAC.SINT</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/TPM_NPCT750AAC-0/NPCT750AAC.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -7711,7 +7757,7 @@
 	<id>/sys-0/node-0/pennybacker-0/TPM_NPCT750AAC-0/NPCT750AAC.spi</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12010,6 +12056,29 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/tpm-int-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0/power10-0/tpm-rst-master</id>
 	<property>
 	<id>DIRECTION</id>
@@ -12563,14 +12632,71 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0/NPCT750AAC-0/NPCT750AAC.i2c</id>
+	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0/NPCT750AAC-0</id>
 	<property>
-	<id>DIRECTION</id>
+	<id>FRU_ID</id>
 	<value></value>
 	</property>
 	<property>
-	<id>I2C_ADDRESS</id>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0/NPCT750AAC-0/NPCT750AAC.RESET</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>GENERIC_INPUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>CP0_TPM_RESET_N</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0/NPCT750AAC-0/NPCT750AAC.SINT</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>GENERIC_OUTPUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>CPU_TPM_SINT_N</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0/NPCT750AAC-0/NPCT750AAC.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x5C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12578,22 +12704,47 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0/NPCT750AAC-0/NPCT750AAC.spi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0/ladybird-presence-0</id>
+	<property>
+	<id>PRESENCE_DETECT</id>
+	<value>'0' means present</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0/ladybird-presence-0/io-0</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 	<property>
 	<id>DRIVER_TYPE</id>
-	<value></value>
+	<value>NA</value>
 	</property>
 	<property>
 	<id>GPIO_TYPE</id>
-	<value></value>
+	<value>PRESENCE</value>
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>Ladybird card presence</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -12612,6 +12763,17 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value>24c64</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0/led_assoc_child</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -15890,6 +16052,48 @@
 		</bus_attribute>
 	</bus>
 	<bus>
+		<bus_id>tpm_connector-0/ladybird-0/NPCT750AAC-0/NPCT750AAC.SINT => proc_socket-0/godel-0/power10-0/tpm-int-slave</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>tpm_connector-0/ladybird-0/NPCT750AAC-0/</source_path>
+		<source_target>NPCT750AAC.SINT</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-0/</dest_path>
+		<dest_target>tpm-int-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0,H:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/tpm-rst-master => tpm_connector-0/ladybird-0/NPCT750AAC-0/NPCT750AAC.RESET</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>tpm-rst-master</source_target>
+		<dest_path>tpm_connector-0/ladybird-0/NPCT750AAC-0/</dest_path>
+		<dest_target>NPCT750AAC.RESET</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0,H:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
 		<bus_id>bmc-0/chip-bmc-ast2600.pin_F13_gpiok6k7_i2c8/chip-bmc-ast2600.pingroup_i2c8/chip-bmc-ast2600.I2C8 => MAX31785-0/MAX31785.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
@@ -18924,6 +19128,43 @@
 		</bus_attribute>
 	</bus>
 	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/i2c-master-lightpath => tpm_connector-0/ladybird-0/NPCT750AAC-0/NPCT750AAC.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>i2c-master-lightpath</source_target>
+		<dest_path>tpm_connector-0/ladybird-0/NPCT750AAC-0/</dest_path>
+		<dest_target>NPCT750AAC.i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/tpm_connector-0/ladybird-0,H:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/lpc-master => bmc-0/chip-bmc-ast2600.pin_AB7_gpiow0w7_espi_lpc/chip-bmc-ast2600.pingroup_lpc/chip-bmc-ast2600.LPC</bus_id>
 		<bus_type>LPC</bus_type>
 		<cable>no</cable>
@@ -19599,31 +19840,6 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-0/spi-tpm => TPM_NPCT750AAC-0/NPCT750AAC.spi</bus_id>
-		<bus_type>SPI</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
-		<source_target>spi-tpm</source_target>
-		<dest_path>TPM_NPCT750AAC-0/</dest_path>
-		<dest_target>NPCT750AAC.spi</dest_target>
-		<bus_attribute>
-			<id>BUS_WIDTH</id>
-		<default>2</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0(power10)</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>SPI_CONNECTION_TYPE</id>
-		<default>CFAM</default>
-		</bus_attribute>
-	</bus>
-	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/spi-sbepri => proc_socket-0/godel-0/p0-sbe-p/spi-slave</bus_id>
 		<bus_type>SPI</bus_type>
 		<cable>no</cable>
@@ -19817,6 +20033,31 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/spi-tpm => tpm_connector-0/ladybird-0/NPCT750AAC-0/NPCT750AAC.spi</bus_id>
+		<bus_type>SPI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>spi-tpm</source_target>
+		<dest_path>tpm_connector-0/ladybird-0/NPCT750AAC-0/</dest_path>
+		<dest_target>NPCT750AAC.spi</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/pennybacker-0,H:/sys-0/node-0/pennybacker-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>SPI_CONNECTION_TYPE</id>
@@ -77819,6 +78060,7 @@
 	<child_id>generic-logic-assoc</child_id>
 	<child_id>ladybird-presence-0</child_id>
 	<child_id>ladybird-vpd-0</child_id>
+	<child_id>NPCT750AAC-0</child_id>
 	<child_id>led-ladybird-fault-0</child_id>
 	<child_id>led-ladybird-power-0</child_id>
 	<attribute>
@@ -77975,6 +78217,301 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>NPCT750AAC-0</id>
+	<type>chip-NPCT750AAC</type>
+	<is_root>false</is_root>
+	<instance_name>NPCT750AAC</instance_name>
+	<position>0</position>
+	<child_id>NPCT750AAC.spi</child_id>
+	<child_id>NPCT750AAC.SINT</child_id>
+	<child_id>NPCT750AAC.RESET</child_id>
+	<child_id>NPCT750AAC.i2c</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>EEPROM_VPD_PRIMARY_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value>physical:sys-0</value></field>
+				<field><id>port</id><value>0xFF</value></field>
+				<field><id>devAddr</id><value>0xFF</value></field>
+				<field><id>engine</id><value>0xFF</value></field>
+				<field><id>byteAddrOffset</id><value>0xFF</value></field>
+				<field><id>maxMemorySizeKB</id><value>0xFFFFFFFFFFFFFFFF</value></field>
+				<field><id>chipCount</id><value>0xFF</value></field>
+				<field><id>writePageSize</id><value>0xFFFFFFFFFFFFFFFF</value></field>
+				<field><id>writeCycleTime</id><value>0xFFFFFFFFFFFFFFFF</value></field>
+				<field><id>i2cMuxBusSelector</id><value>0xFF</value></field>
+				<field><id>i2cMuxPath</id><value>physical:sys-0</value></field>
+				<field><id>eepromContentType</id><value>0x0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TPM_ENABLED</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>TPM_MODEL</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>TPM</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>NPCT750AAC.spi</id>
+	<type>unit-spi-slave</type>
+	<is_root>false</is_root>
+	<instance_name>NPCT750AAC.spi</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>SPI</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SPI_ENGINE</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>SPI_PORT</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>NPCT750AAC.SINT</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>NPCT750AAC.SINT</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>NPCT750AAC.RESET</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>NPCT750AAC.RESET</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>NPCT750AAC.i2c</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>NPCT750AAC.i2c</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
 		<default>NA</default>
 	</attribute>
 </targetInstance>
@@ -93612,7 +94149,7 @@
 	</attribute>
 	<attribute>
 		<id>TPM_ENABLED</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TPM_MODEL</id>
@@ -93621,210 +94158,6 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>TPM</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>NPCT750AAC.spi</id>
-	<type>unit-spi-slave</type>
-	<is_root>false</is_root>
-	<instance_name>NPCT750AAC.spi</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>SPI</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>SPI_ENGINE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>SPI_PORT</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>NPCT750AAC.SINT</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>NPCT750AAC.SINT</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GENERIC_OUTPUT</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>NPCT750AAC.RESET</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>NPCT750AAC.RESET</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GENERIC_OUTPUT</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>NPCT750AAC.i2c</id>
-	<type>unit-i2c-slave</type>
-	<is_root>false</is_root>
-	<instance_name>NPCT750AAC.i2c</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>I2C</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>I2C_ADDRESS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>VPD_SIZE</id>
-		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -100005,6 +100338,11 @@
 	<child_id>Bonnell-2U-CCINS.16GB-RDIMM-2U</child_id>
 	<child_id>Bonnell-2U-CCINS.32GB-RDIMM-2U</child_id>
 	<child_id>Bonnell-2U-CCINS.64GB-RDIMM-2U</child_id>
+	<child_id>Bonnell-2U-CCINS.16GB-DDIMM-2U</child_id>
+	<child_id>Bonnell-2U-CCINS.32GB-DDIMM-2U</child_id>
+	<child_id>Bonnell-2U-CCINS.64GB-DDIMM-2U</child_id>
+	<child_id>Bonnell-2U-CCINS.128GB-DDIMM-2U</child_id>
+	<child_id>Bonnell-2U-CCINS.ioSCM-DD20-6BC-195W</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default></default>
@@ -100620,7 +100958,7 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
-	</attribute>	
+	</attribute>
 </targetInstance>
 <targetInstance>
 	<id>Bonnell-2U-CCINS.64GB-RDIMM-2U</id>
@@ -100667,7 +101005,254 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
-	</attribute>	
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Bonnell-2U-CCINS.16GB-DDIMM-2U</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Bonnell-2U-CCINS.16GB-DDIMM-2U</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>329A</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9028-21B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>16GB 2U DDIMM</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Bonnell-2U-CCINS.32GB-DDIMM-2U</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Bonnell-2U-CCINS.32GB-DDIMM-2U</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>327A</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9028-21B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>32GB 2U DDIMM</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Bonnell-2U-CCINS.64GB-DDIMM-2U</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Bonnell-2U-CCINS.64GB-DDIMM-2U</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>327B</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9028-21B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>64GB 2U DDIMM</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Bonnell-2U-CCINS.128GB-DDIMM-2U</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Bonnell-2U-CCINS.128GB-DDIMM-2U</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>327C</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9028-21B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>128GB 2U DDIMM</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Bonnell-2U-CCINS.ioSCM-DD20-6BC-195W</id>
+	<type>override-ccin-cpu</type>
+	<is_root>false</is_root>
+	<instance_name>Bonnell-2U-CCINS.ioSCM-DD20-6BC-195W</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>5C89</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CORES</id>
+		<default>4BC</default>
+	</attribute>
+	<attribute>
+		<id>EC_LEVEL</id>
+		<default>2.03</default>
+	</attribute>
+	<attribute>
+		<id>FREQUENCY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Godel ioSCM STC DD2.02 6BC 195W</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
 </targetInstance>
 <targetInstance>
 	<id>system_event_sensor</id>
